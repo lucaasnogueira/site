@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
+import perfilImg from '@/img/Perfil.png';
 
 export function About() {
   const ref = useRef(null);
@@ -27,7 +28,7 @@ export function About() {
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-accent/20 p-1">
               <div className="w-full h-full rounded-2xl overflow-hidden bg-background">
                 <img
-                  src="src\img\Perfil.png"
+                  src={perfilImg}
                   alt="Professional developer"
                   className="w-full h-full object-cover"
                 />
