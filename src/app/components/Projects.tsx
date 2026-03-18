@@ -2,8 +2,8 @@ import { motion } from "motion/react";
 import { useRef } from "react";
 import { ExternalLink, Github, ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import clinicaOs from "img/clinica_os.png";
-import ticketFlow from "img/ticket_flow.png";
+import clinicaOs from "@/img/clinica_os.png";
+import ticketFlow from "@/img/ticket_flow.png";
 
 const projectImages = [
   clinicaOs,
