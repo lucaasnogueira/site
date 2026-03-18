@@ -69,6 +69,23 @@ const resources = {
               'Interface reativa com carregamento instantâneo, otimizada por Server-Side Rendering (SSR) e cache estratégico.',
             ],
           },
+          {
+            title: 'TicketFlow - Gestão de Eventos',
+            category: 'Fullstack',
+            description: 'Sistema distribuído para venda de ingressos e gestão de eventos, com foco em alta disponibilidade e performance.',
+            problem: 'Necessidade de um sistema resiliente que suporte picos de tráfego (venda de ingressos) e garanta a consistência do estoque em tempo real.',
+            solution: 'Arquitetura de microserviços com .NET 9 e .NET Aspire, Redis para lock de estoque temporário, PostgreSQL para persistência e RabbitMQ para mensageria assíncrona.',
+            challenges: [
+              'Gerenciamento de expiração de reservas temporárias via Background Workers',
+              'Sincronização de estoque entre Redis (cache de alta performance) e PostgreSQL',
+              'Comunicação resiliente entre serviços (Catalog vs Ordering) com MassTransit',
+            ],
+            results: [
+              'Sistema 100% observável através de OpenTelemetry e Painel Aspire',
+              'Prevenção de overbooking total via reservas atômicas distribuídas',
+              'Arquitetura escalável preparada para suportar grandes picos de acesso simultâneo',
+            ],
+          },
         ],
       },
       experience: {
@@ -203,6 +220,23 @@ const resources = {
               'Reactive interface with instant loading, optimized by Server-Side Rendering (SSR) and strategic caching.',
             ],
           },
+          {
+            title: 'TicketFlow - Event Management',
+            category: 'Fullstack / Microservices',
+            description: 'Distributed system for ticket sales and event management, focusing on high availability and performance.',
+            problem: 'Need for a resilient system that supports traffic peaks (ticket sales) and ensures real-time inventory consistency.',
+            solution: 'Microservices architecture with .NET 9 and .NET Aspire, Redis for temporary stock locking, PostgreSQL for persistence, and RabbitMQ for asynchronous messaging.',
+            challenges: [
+              'Management of temporary reservation expiration via Background Workers',
+              'Stock synchronization between Redis (high-performance cache) and PostgreSQL',
+              'Resilient communication between services (Catalog vs Ordering) with MassTransit',
+            ],
+            results: [
+              '100% observable system through OpenTelemetry and Aspire Dashboard',
+              'Total overbooking prevention via distributed atomic reservations',
+              'Scalable architecture prepared to handle large simultaneous access peaks',
+            ],
+          },
         ],
       },
       experience: {
@@ -335,6 +369,23 @@ const resources = {
               'Reducción del 80% en el tiempo dedicado a la emisión manual de facturas fiscales.',
               'Reducción del 40% en desperdicios de inventario a través de alertas de vencimiento y baja automática.',
               'Interfaz reactiva con carga instantánea, optimizada por Server-Side Rendering (SSR) y caché estratégico.',
+            ],
+          },
+          {
+            title: 'TicketFlow - Gestión de Eventos',
+            category: 'Fullstack / Microservicios',
+            description: 'Sistema distribuido para la venta de entradas y gestión de eventos, con enfoque en alta disponibilidad y rendimiento.',
+            problem: 'Necesidad de un sistema resiliente que soporte picos de tráfico (venta de entradas) y garantice la consistencia del stock en tiempo real.',
+            solution: 'Arquitectura de microservicios con .NET 9 y .NET Aspire, Redis para bloqueo de stock temporal, PostgreSQL para persistencia y RabbitMQ para mensajería asíncrona.',
+            challenges: [
+              'Gestión de expiración de reservas temporales a través de Background Workers',
+              'Sincronización de stock entre Redis (caché de alto rendimiento) y PostgreSQL',
+              'Comunicación resiliente entre servicios (Catalog vs Ordering) con MassTransit',
+            ],
+            results: [
+              'Sistema 100% observable a través de OpenTelemetry y Panel Aspire',
+              'Prevención total de overbooking mediante reservas atómicas distribuidas',
+              'Arquitectura escalable preparada para soportar grandes picos de acceso simultáneo',
             ],
           },
         ],

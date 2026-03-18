@@ -2,9 +2,12 @@ import { motion } from "motion/react";
 import { useRef } from "react";
 import { ExternalLink, Github, ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import clinicaOs from "img/clinica_os.png";
+import ticketFlow from "img/ticket_flow.png";
 
 const projectImages = [
-  "https://images.unsplash.com/photo-1717996563514-e3519f9ef9f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBhcHBsaWNhdGlvbiUyMGludGVyZmFjZXxlbnwxfHx8fDE3NzA3MDAzNTd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+  clinicaOs,
+  ticketFlow,
 ];
 
 const projectMeta = [
@@ -12,6 +15,11 @@ const projectMeta = [
     github: "https://github.com/lucaasnogueira/Gestao-Clinica",
     demo: "https://example.com",
     stack: ["Next.js", "NestJS", "PostgreSQL", "Prisma", "Redis & Bull", "Docker", "TypeScript", "Tailwind CSS & Radix UI"],
+  },
+  {
+    github: "https://github.com/lucaasnogueira/Gestao-de-Eventos",
+    demo: "https://example.com",
+    stack: ['C#', '.NET Aspire', 'PostgreSQL', 'Redis', 'RabbitMQ', 'YARP', 'Docker'],
   },
 ];
 
