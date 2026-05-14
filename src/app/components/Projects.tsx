@@ -13,7 +13,7 @@ const projectImages = [
 const projectMeta = [
   {
     github: "https://github.com/lucaasnogueira/Gestao-Clinica",
-    demo: "https://example.com",
+    demo: "https://gestao-clinica-production.up.railway.app/login",
     stack: ["Next.js", "NestJS", "PostgreSQL", "Prisma", "Redis & Bull", "Docker", "TypeScript", "Tailwind CSS & Radix UI"],
   },
   {
